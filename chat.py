@@ -8,7 +8,7 @@ import openai
 import traceback
 
 # OpenAI API key
-openai.api_key = "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"
+openai.api_key = "openaikey"
 
 # It stores last analysis
 last_analysis = {}
@@ -267,7 +267,7 @@ async def fetchpage(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Основная функция для запуска бота
 def main():
-    telegram_token = "7639391087:AAENtVNgZhqIuDXUZOe121WdM_kUfmC3MYE"
+    telegram_token = "tgtoken"
     application = Application.builder().token(telegram_token).build()
 
     # обработчики команд
